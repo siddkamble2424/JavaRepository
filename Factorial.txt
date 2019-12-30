@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Factorial {
+	public static void main( String [] args ) {
+		int fac=1;
+		Scanner s= new Scanner(System.in);
+		System.out.println("Enter the number whose factorial is to be found");
+		int a=s.nextInt();
+		while(a!=0)
+		{
+			fac=fac*a;
+			a--;
+		}
+		System.out.println("Factorial is: "+fac);
+		
+		
+	}
+}
